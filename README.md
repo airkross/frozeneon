@@ -1,19 +1,18 @@
-# frozeneon
+# SPA на Vue.js. Поиск пакетов имеющихся в npm.
 
-## Project setup
-```
-npm install
-```
+## Используемые технологии: 
+1) Vue.js;
+2) Vuex;
+3) Bootstrap-vue;
+4) Axios;
+5) SCSS-препроцессор.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Запуск проекта
+1) npm install
+2) npm run start
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Что реализовано:
+Реализовано приложение, которое производит поиск пакетных данных имеющихся у npm и формирует вывод результатов поиска в виде таблицы с пагинацией. Количество записей одной страницы равно 10. Имеется возможно детального просмотра данных о пакете - при нажатии на кнопку Detail открывается модальное окно в которое происходит вывод данных. Приложение адаптированно - верстка не ломается на любых экранах min-width: 320px / max-width: any. В футере представлена краткая информация об авторе работы.
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Отчет по затраченному времени:
+Ссылка на статистический отчет: https://wakatime.com/@2811955a-5f01-4d1b-8ffa-2b0922a49161/projects/kvcasdwdkf?start=2021-01-19&end=2021-01-25
