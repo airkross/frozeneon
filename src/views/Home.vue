@@ -155,7 +155,7 @@ export default {
 }
 
 /* для того чтобы на ширине 320 текст не вылазил за пределы модалки */
-.modal-content{
+.content{
   word-break: break-all;
 }
 </style>
